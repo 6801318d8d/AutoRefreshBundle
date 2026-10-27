@@ -1,0 +1,25 @@
+{
+    "name": "6801318d8d/auto-refresh-bundle",
+    "description": "Keep open Kimai pages up to date, within a second, with timesheets changed in the mobile app, another device or the API",
+    "homepage": "https://github.com/6801318d8d/AutoRefreshBundle",
+    "type": "kimai-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "6801318d8d",
+            "homepage": "https://github.com/6801318d8d"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": 20000,
+            "name": "Auto refresh"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KimaiPlugin\\AutoRefreshBundle\\": ""
+        }
+    }
+}
